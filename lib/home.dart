@@ -64,12 +64,12 @@ class _HomeState extends State<Home> {
             ),
             TextField(
               keyboardType: TextInputType.text,
-              decoration: InputDecoration(labelText: "seu nome"),
+              decoration: InputDecoration(labelText: "Seu nome"),
               controller: _controllerNome,
             ),
             TextField(
               keyboardType: TextInputType.emailAddress,
-              decoration: InputDecoration(labelText: "seu email"),
+              decoration: InputDecoration(labelText: "Seu email"),
               controller: _controllerEmail,
             ),
             Row(
